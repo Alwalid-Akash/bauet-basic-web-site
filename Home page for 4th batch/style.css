@@ -1,0 +1,164 @@
+ body
+	   {
+	   	  margin: 0;
+         padding:0;
+         background-image: url(Backgroud-image.jpg);
+         background-repeat: no-repeat;
+            background-size: cover;
+	   }
+		.main
+		{
+         margin: 0 auto;
+         padding:0;
+         width: 80%;
+		}
+		#head
+		{
+			background-color: black;
+			color: #FFFFFF;
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			width: 100%;
+			height: 50px;
+		}
+		#head .head_image
+		{
+			float: left;
+			width: 15%;
+			height: 100%;
+			background-color: yellow;
+			padding: 0;
+			margin: 0;
+		}
+		#head .head_name
+		{
+			float: right;
+			width: 85%;
+			height: 100%;
+
+		}
+		h1
+		{
+			padding: 0;
+			margin: 0;
+		}
+		.main_body
+		{
+			clear: both;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: auto;
+			background-color: #EDF9F3 ;
+
+		}
+		.manu_bar
+		{
+			padding: 0;
+			margin: 0;
+			float: left;
+			width: auto;
+			border-right: 15px solid white;
+		}
+		.manu_bar ul
+		{
+			list-style-type: none;
+			line-height: 60px;
+		}
+		.manu_bar ul li
+		{
+			width: 150px;
+			position: relative;
+			font-size: 25px;
+			text-align: justify;
+		}
+
+		.manu_bar ul li a
+		{
+			text-decoration: none;
+			color: chocolate;
+			 display: block;
+
+		}
+		.manu_bar ul li a:hover
+		{
+			
+			color: green;
+			border: 1px solid black;
+		}
+		.manu_bar ul li ul
+		{
+			display: none;
+			position: absolute;
+			top: 0;
+			left: 150px;
+
+		}
+
+		
+		.manu_bar ul li:hover ul 
+		{
+			display: block;
+			background-color: white;
+			padding:0;
+		
+		}
+
+		.current
+		{
+			
+		background-color: white;
+		font-style: italic;
+         border-radius: 15px;
+         border: 1px solid black;
+         text-align: center;
+
+		}
+		.container_part
+		{
+			padding: 0;
+			margin: 0;
+			float: right;
+			width: 80%;
+			height:500px;
+		}
+		.container_part_1
+		{
+			  padding:0;
+			  margin:0;
+			  height:40px;
+			  width:100%;
+		}
+		.container_part_2
+		{
+			  padding:0;
+			  margin:0;
+			   height:450px;
+			  width:100%;
+		}
+		p
+		{
+			font-size: 28px;
+			text-align: justify;
+		}
+		th, td
+		{
+			font-size: 25px;
+		}
+		.footer
+		{
+			clear: both;
+			text-align: center;
+			font-size: 35px;
+			background-color: rgb(158, 211, 185);
+			padding: 0;
+			margin: 0;
+
+		}
+		.footer a
+		{
+			padding: 0;
+			margin: 0;
+
+		}

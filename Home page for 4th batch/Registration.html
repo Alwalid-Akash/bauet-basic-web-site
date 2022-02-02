@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="icon" type="image/jpg" href="Bauet.jpg">
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="main">
+	<div id="head">
+		<h1>Bangladesh Army University of Enginerring and Technology</h1>
+	</div>
+	<div class="main_body">
+		<div class="manu_bar">
+			<ul>
+				<li> <a href="Home_page.html">Home</a></li> 
+				<li> <a href="#">Our Services</a>
+                    <ul>
+                    	<li> <a href="#">Calculator</a></li>
+                    	<li> <a href="#">Result</a></li>
+                    	<li> <a href="#">Rearch Result</a></li>
+                    </ul>
+				</li>
+				<li> <a href="Registration.html" class="current">Registration</a></li>
+				<li> <a href="#">Contact Us</a></li>
+				<li> <a href="Home_about_us.html">About Us</a></li>
+
+			</ul>
+		</div>
+		<div class="container_part">
+			
+           <form name="form" method="post" action="submit.php">
+     <h1 style="text-align:center; color:red; padding: 10px">
+       <!--head end -->
+     Registration form for student      </h1>
+     <table width="" border="0" style="text-align:left; margin: 0 auto">
+        <tr>
+           <th scope="row">First Name</th>
+           <td><input type="text" name="firstname" value=""  required></td>
+         </tr>
+		 <tr>
+           <th scope="row">Last Name</th>
+           <td><input type="text" name="lastname" value="" ></td>
+         </tr>
+         <tr>
+           <th scope="row">Roll</th>
+           <td><input type="number" name="roll" value=""  required></td>
+         </tr>
+		 
+         <tr>
+           <th scope="row">Registration number</th>
+           <td><input type="text" name="registrationNumber" value="" ></td>
+         </tr>
+		 <tr>
+           <th scope="row">Session</th>
+           <td><input type="text" name="session" value="" ></td>
+		 </tr>
+		 <tr>
+           <th scope="row">Gender</th>
+           <td><input type="radio" name="gender" value="male" checked> Male
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other </td>
+		 </tr>
+         <tr>
+           <th scope="rol">Semester</th>
+           <td>
+              <select name="Semester" id="ye" >
+                <option value="Fisrt">select one</option>
+				        <option value="Second">Second</option>
+				         <option value="Third">Third</option>
+						      <option value="Fourth">Fourth</option>
+							       <option value="Fifth">Fifth</option>
+								        <option value="Sixth">Sixth</option>
+              </select>
+           </td>
+         </tr>
+         
+         <tr>
+           <th scope="row">SSC</th>
+           <td><input type="text" name="ssc" value="" ></td>
+         </tr>
+         <tr>
+           <th scope="row">HSC</th>
+           <td><input type="text" name="hsc" value="" ></td>
+         </tr>
+         <tr>
+           <th scope="row">Date of birth</th>
+           <td><input type="date" name="dob" value="" ></td>
+         </tr>
+         <tr>
+           <th scope="row">Email</th>
+           <td><input type="email" name="email" value=""  required placeholder="Example@gamil.com"></td>
+         </tr>
+                 
+         <tr>
+           <th scope="row">password</th>
+           <td><input type="password" name="password" value="" ></td>
+         </tr>
+		 
+		<tr >
+           
+           <td style="padding-left: 200px;"><input type="submit" style="font-size: 20px; color: red;"  value=" Please Submit" ></td>
+         </tr>
+
+       </table>
+ </form>
+
+		</div>
+		<div class="footer">
+		Copyright by BAUET 
+			<a href="https://www.bauet.ac.bd"> www.bauet.ac.bd</a>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
